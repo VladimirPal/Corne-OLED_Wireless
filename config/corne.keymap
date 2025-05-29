@@ -24,7 +24,7 @@
             compatible = "zmk,behavior-tap-dance";
             label = "SLASH_QUESTION";
             #binding-cells = <0>;
-            bindings = <&kp FSLH &kp QUEST>;
+            bindings = <&kp FSLH>, <&kp QUEST>;
         };
     };
 
