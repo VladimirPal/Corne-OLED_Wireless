@@ -20,12 +20,13 @@
 
             mods = <(MOD_LSFT | MOD_RSFT)>;
         };
+
         slash_tapdance: slash_tapdance {
             compatible = "zmk,behavior-tap-dance";
             label = "SLASH_TAPDANCE";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
-            bindings = <&kp FSLH>, <&kp QUEST>, <&kp BSLH>;
+            bindings = <&kp FSLH>, <&kp QMARK>, <&kp BSLH>;
         };
     };
 
