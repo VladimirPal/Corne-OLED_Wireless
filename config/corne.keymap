@@ -9,6 +9,17 @@
 #include <dt-bindings/zmk/keys.h>
 
 / {
+  behaviors {
+    colon_semicolon: colon_semicolon {
+      compatible = "zmk,behavior-mod-morph";
+      #binding-cells = <0>;
+      bindings = <&kp COLON>, <&kp SEMI>;
+      mods = <(MOD_LSFT | MOD_RSFT)>;
+    };
+  };
+};
+
+/ {
     keymap {
         compatible = "zmk,keymap";
 
