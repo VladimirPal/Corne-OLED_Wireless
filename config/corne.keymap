@@ -19,7 +19,7 @@
         };
     };
 
-    ~/macro: tilde_slash_macro {
+    tilde_slash_macro: tilde_slash_macro {
       compatible = "zmk,behavior-macro";
       label = "TILDE_SLASH";
       #binding-cells = <0>;
