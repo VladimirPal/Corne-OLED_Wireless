@@ -35,7 +35,7 @@
             label = "TAB_TAPDANCE";
             #binding-cells = <0>;
             tapping-term-ms = <300>;
-            bindings = <&kp TAB>, <&mt LSHIFT TAB>;
+            bindings = <&kp TAB>, <&mt LS(TAB) TAB>;
         };
     };
 
